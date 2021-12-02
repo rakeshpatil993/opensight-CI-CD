@@ -1,0 +1,18 @@
+pipeline {
+    agent any
+    parameters {
+        string(name: 'ArtifactVersion', description: "Artfact Version")
+    }
+    stages{
+        stage("Download Artifact") {
+            steps {
+                sh 'sudo ansible-playbook downloadartifact.yml --extra-vars version=${ArtifactVersion}'
+            }
+        }
+     stage("docker deploy") {
+            steps {
+               sh 'sudo ansible-playbook docker-run-deploy.yml --extra-vars ImageTag=${ImagTag}'
+           }
+        }   
+    }
+}
