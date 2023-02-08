@@ -52,7 +52,8 @@
      </repository>
 </repositories> 
     <build>
-    <plugins>
+	    <plugins>
+		    <!--		    
     <plugin>
      <groupId>org.springframework</groupId>
         <artifactId>gs-spring-boot</artifactId>
@@ -71,7 +72,8 @@
        <nexusUrl>http://13.250.182.158:8081/repository/maven-releases</nexusUrl>
          <skipStaging>true</skipStaging>
     </configuration>
-</plugin>
+			    </plugin>
+		    -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
