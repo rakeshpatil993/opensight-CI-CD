@@ -30,7 +30,7 @@
 <distributionManagement>
    <repository>
       <id>nexus-repo</id>
-      <url>http://13.250.182.158:8081/repository/maven-releases</url>
+      <url>http://13.212.136.53:8081/repository/maven-releases</url>
       <releases>
          <enabled>true</enabled>
       </releases>
@@ -42,7 +42,7 @@
 <repositories>
     <repository>
       <id>nexus-repo</id>
-      <url>http://13.250.182.158:8081/repository/maven-releases</url>
+      <url>http://13.212.136.53:8081/repository/maven-releases</url>
       <releases>
        <enabled>true</enabled>
       </releases>
