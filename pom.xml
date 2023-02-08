@@ -56,7 +56,7 @@
     <plugin>
      <groupId>org.springframework</groupId>
         <artifactId>gs-spring-boot</artifactId>
-   <version>1.5.1</version>
+   <version>0.1.1</version>
      <executions>
    <execution>
          <id>nexus-repo</id>
